@@ -3,6 +3,6 @@ const app = express()
 app.get('/', (req, res) => {
     console.log("A GET request!")
     console.log(req.headers)
-    res.json({Hello:'asdfasdfsdf'})
+    res.json({Hello:'asdfasddf'})
 })
 app.listen(process.env.PORT || 3000)
